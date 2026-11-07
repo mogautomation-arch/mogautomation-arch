@@ -1,0 +1,147 @@
+{
+  "schema": "mog.github_automation_suite.v1",
+  "cost_tier": "NIVEL_0_LOCAL_0_00_EUR",
+  "paid_actions_allowed": false,
+  "upstream_references": {
+    "renovate": "https://github.com/renovatebot/renovate",
+    "github_repo_automation": "https://github.com/googleapis/github-repo-automation",
+    "github_project_automation_plus": "https://github.com/alex-page/github-project-automation-plus",
+    "create_github_app_token": "https://github.com/actions/create-github-app-token",
+    "vitalliuss_github_automation": "https://github.com/vitalliuss/github-automation",
+    "repo_automation_bots": "https://github.com/googleapis/repo-automation-bots"
+  },
+  "bots_enabled": {
+    "blunderbuss_mog": {
+      "source": "googleapis/repo-automation-bots",
+      "required_reviewer": "mog-verificador",
+      "default_writer_assignee": "mogautomation-arch",
+      "enforce_writer_not_verifier": true
+    },
+    "do_not_merge_hold_mog": {
+      "source": "googleapis/repo-automation-bots",
+      "blocking_labels": [
+        "🔶-MIGUEL-HOLD",
+        "🔶-MIGUEL-DECISION-PENDIENTE",
+        "HOLD",
+        "DO NOT MERGE"
+      ],
+      "require_owner_cause_and_exit_condition": true
+    },
+    "conventional_commit_and_session_trailer_mog": {
+      "source": "googleapis/github-repo-automation",
+      "required_trailers": [
+        "Conversation-Id:",
+        "Session:"
+      ],
+      "rule": "CHANNEL_IS_NOT_AUTHORITY (mog-containers-m1#27)"
+    },
+    "merge_on_green_mesa_mog": {
+      "source": "googleapis/repo-automation-bots",
+      "canonical_gate": "C:\\mog-universe\\.github\\scripts\\mide_resenas.py",
+      "merge_strategy": "squash",
+      "require_expected_head_sha": true,
+      "require_readback_merged_true": true,
+      "centralized_in_mesa": true
+    },
+    "project_automation_plus_mog": {
+      "source": "alex-page/github-project-automation-plus",
+      "tablero_vivo_issue": "mog-corporation/mog-universe#269",
+      "state_columns": [
+        {
+          "column": "RUNNING",
+          "label": "JOB-RUNNING",
+          "when": [
+            "pr_opened",
+            "pr_draft",
+            "ci_pending"
+          ]
+        },
+        {
+          "column": "VERIFY_PENDING",
+          "label": "JOB-VERIFY-PENDING",
+          "when": [
+            "ci_green_awaiting_verifier"
+          ]
+        },
+        {
+          "column": "READY_FOR_MESA_MERGE",
+          "label": "JOB-READY",
+          "when": [
+            "mide_resenas_listo_exit_0"
+          ]
+        },
+        {
+          "column": "HOLD_MIGUEL",
+          "label": "🔶-MIGUEL-HOLD",
+          "when": [
+            "has_hold_or_security_finding"
+          ]
+        }
+      ]
+    },
+    "create_github_app_token_mog": {
+      "source": "actions/create-github-app-token",
+      "credential_groups": {
+        "mog-automation": {
+          "github_account": "mogautomation-arch",
+          "permissions": {
+            "contents": "write",
+            "pull_requests": "write",
+            "issues": "write"
+          },
+          "can_approve_own_pr": false
+        },
+        "mog-verificador": {
+          "github_account": "mog-verificador",
+          "permissions": {
+            "contents": "read",
+            "pull_requests": "write",
+            "statuses": "read"
+          },
+          "can_push_code": false,
+          "can_admin_repo": false
+        },
+        "mog-ceo-eco": {
+          "github_account": "mortega-spec",
+          "permissions": {
+            "administration": "write",
+            "contents": "write",
+            "pull_requests": "write"
+          },
+          "authority": "🔶 MoG CEo & ARQ"
+        }
+      }
+    },
+    "declarative_repo_settings_mog": {
+      "source": "vitalliuss/github-automation",
+      "repositories": [
+        "mog-corporation/mog-universe",
+        "mog-corporation/mog-suite",
+        "mog-corporation/mog-containers-m1",
+        "mog-corporation/mog-federation",
+        "mog-corporation/mog-control-plane",
+        "mog-corporation/mogbot-personal-skills",
+        "mog-corporation/mogautomation-arch",
+        "mog-corporation/mog-data-engine",
+        "mogautomation-arch/mog-comms-gateway"
+      ],
+      "canonical_labels_9": [
+        "🔶-MIGUEL-AUTORIZADO",
+        "🔶-MIGUEL-HOLD",
+        "🔶-MIGUEL-DECISION-PENDIENTE",
+        "HMI-TABLERO-VIVO",
+        "JOB-RUNNING",
+        "JOB-VERIFY-PENDING",
+        "JOB-READY",
+        "VIGIA-GASTO-ALERTA",
+        "ANTI-DERIVA"
+      ],
+      "canonical_milestones_4": [
+        "M1",
+        "M2",
+        "M3",
+        "M4"
+      ]
+    }
+  }
+}
