@@ -1,0 +1,89 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Configuración Canónica Renovate MoG Corporation (Nivel 0: 0,00 € · Sin Actions de pago · writer != verifier · mide_resenas.py = LISTO)",
+  "extends": [
+    "config:best-practices",
+    ":dependencyDashboard",
+    ":pinOnlyDevDependencies",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "timezone": "Europe/Madrid",
+  "schedule": [
+    "before 6am on monday"
+  ],
+  "automerge": false,
+  "platformAutomerge": false,
+  "Assignees": [
+    "mogautomation-arch"
+  ],
+  "assignees": [
+    "mogautomation-arch"
+  ],
+  "reviewers": [
+    "mog-verificador"
+  ],
+  "labels": [
+    "dependencies",
+    "requiere-verificacion"
+  ],
+  "prConcurrentLimit": 3,
+  "prHourlyLimit": 1,
+  "rebaseWhen": "conflicted",
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": [
+      "security",
+      "dependencies",
+      "requiere-verificacion",
+      "🔶-MIGUEL-DECISION-PENDIENTE"
+    ],
+    "assignees": [
+      "mortega-spec"
+    ],
+    "reviewers": [
+      "mog-verificador"
+    ]
+  },
+  "packageRules": [
+    {
+      "description": "Agrupar actualizaciones menores y parches de Python (pip) en un solo PR semanal para evitar colisiones",
+      "matchManagers": [
+        "pep621",
+        "pip_requirements",
+        "pip_setup",
+        "pyproject"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "groupName": "dependencias-python-no-major"
+    },
+    {
+      "description": "Agrupar digest pins de GitHub Actions en un solo PR sin activar runners de pago",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "groupName": "github-actions-digests",
+      "pinDigests": true
+    },
+    {
+      "description": "Agrupar imágenes base Docker/Container",
+      "matchManagers": [
+        "dockerfile",
+        "docker-compose"
+      ],
+      "groupName": "contenedores-base-docker"
+    },
+    {
+      "description": "Prohibición absoluta de automerge comercial o sin verificador independiente",
+      "matchPackageNames": [
+        "*"
+      ],
+      "automerge": false,
+      "platformAutomerge": false
+    }
+  ]
+}
