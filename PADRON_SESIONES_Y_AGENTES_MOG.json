@@ -1,0 +1,151 @@
+{
+  "schema": "mog.padron_vivo_interplataforma.v1",
+  "generated_at_utc": "2026-11-07T15:45:45Z",
+  "authority": "D. Miguel Ortega (🔶 MoG CEo & ARQ)",
+  "github_accounts": {
+    "mogautomation-arch": {
+      "url": "https://github.com/mogautomation-arch",
+      "profile_repo": "https://github.com/mogautomation-arch/mogautomation-arch",
+      "local_profile_dir": "C:\\ProgramData\\MoG\\Automation\\git\\profile-mogautomation-arch",
+      "credential_group": "mog-automation",
+      "role": "Escritor / Pusher / Automatización de Ingeniería y MESA"
+    },
+    "mog-verificador": {
+      "url": "https://github.com/mog-verificador",
+      "local_profile_dir": "C:\\ProgramData\\MoG\\Automation\\git\\profile-mog-verificador",
+      "credential_group": "mog-verificador",
+      "role": "Verificador Independiente del Stack (equipo Verificadores · Read-only en los repos de mog-corporation)"
+    },
+    "mortega-spec": {
+      "url": "https://github.com/mortega-spec",
+      "profile_repo": "https://github.com/mortega-spec/mortega-spec",
+      "local_profile_dir": "C:\\ProgramData\\MoG\\Automation\\git\\profile-mortega-spec",
+      "credential_group": "mog-ceo-eco",
+      "role": "Presidencia, Dirección Ejecutiva y Arquitectura (🔶 MoG CEo & ARQ) y Federación Eco-Logics / Ingeteyco"
+    }
+  },
+  "repositories_9_of_9": {
+    "mog-corporation/mog-universe": {
+      "local_path": "C:\\ProgramData\\MoG\\Automation\\git\\mog-universe",
+      "head_sha": "54a63b286f362914f5fe8cf8ff7ed6821d34f932",
+      "exists": true
+    },
+    "mog-corporation/mog-suite": {
+      "local_path": "C:\\ProgramData\\MoG\\Automation\\git\\mog-suite",
+      "head_sha": "711f448db1ef2deefd594060440f8cabe3ba69df",
+      "exists": true
+    },
+    "mog-corporation/mog-containers-m1": {
+      "local_path": "C:\\ProgramData\\MoG\\Automation\\git\\mog-containers-m1",
+      "head_sha": "82453e56951501183f4ac3b39b05d8d075c3ccd5",
+      "exists": true
+    },
+    "mog-corporation/mog-federation": {
+      "local_path": "C:\\ProgramData\\MoG\\Automation\\git\\mog-federation",
+      "head_sha": "8dc61589b005da619fd9c4fda81e16014f453c5c",
+      "exists": true
+    },
+    "mog-corporation/mog-control-plane": {
+      "local_path": "C:\\ProgramData\\MoG\\Automation\\git\\mog-control-plane",
+      "head_sha": "f1fd921646ec4a4d1158fa3881a22f93c51f1c1d",
+      "exists": true
+    },
+    "mog-corporation/mogbot-personal-skills": {
+      "local_path": "C:\\ProgramData\\MoG\\Automation\\git\\mogbot-personal-skills",
+      "head_sha": "eff21d0916158e0df901a9d02f92236cc991051c",
+      "exists": true
+    },
+    "mog-corporation/mogautomation-arch": {
+      "local_path": "C:\\ProgramData\\MoG\\Automation\\git\\mogautomation-arch",
+      "head_sha": "36f573c0c1cb7ee018f9c546f921759d15185377",
+      "exists": true
+    },
+    "mog-corporation/mog-data-engine": {
+      "local_path": "C:\\ProgramData\\MoG\\Automation\\git\\mog-data-engine",
+      "head_sha": "b10fcbc528ba7591e54420adcc717ff38ae543a6",
+      "exists": true
+    },
+    "mogautomation-arch/mog-comms-gateway": {
+      "local_path": "C:\\ProgramData\\MoG\\Automation\\git\\mog-comms-gateway",
+      "head_sha": "e226f4ec2e691c9e680094f1448db051af755342",
+      "exists": true
+    }
+  },
+  "active_antigravity_team": [
+    {
+      "session_id": "e19f52ce-4762-4459-8e30-fd128fdd3fb1",
+      "actor": "mesa_antigravity_coordinador",
+      "role": "🔸 MoGbot MESA Antigravity · Orquestador de Verificación y Fusión Centralizada",
+      "platform": "Google Antigravity IDE",
+      "container": "C:\\MOG_MESA",
+      "github_account": "mogautomation-arch",
+      "credential_group": "mog-automation",
+      "url": "conversation://e19f52ce-4762-4459-8e30-fd128fdd3fb1",
+      "status": "ACTIVE",
+      "updated_at": "2026-11-07T15:45:45Z"
+    },
+    {
+      "session_id": "fbb9b85d-0588-4635-b5fa-56e3d011187a",
+      "actor": "mesa_antigravity_sede",
+      "role": "🔸 MoGbot MESA Antigravity · Sede MESA Central",
+      "platform": "Google Antigravity IDE",
+      "container": "C:\\MOG_MESA",
+      "github_account": "mogautomation-arch",
+      "credential_group": "mog-automation",
+      "url": "conversation://fbb9b85d-0588-4635-b5fa-56e3d011187a",
+      "status": "ACTIVE",
+      "updated_at": "2026-11-07T15:45:45Z"
+    },
+    {
+      "session_id": "a42d0f2e-3467-4e6d-b193-4820073e18a6",
+      "actor": "anti_runner_0001",
+      "role": "🛡️ ANTI_RUNNER_0001 · Runner Verificador Independiente (writer != verifier)",
+      "platform": "Google Antigravity Ultra",
+      "container": "C:\\ANTIGRAVITY_HUB_C",
+      "github_account": "mog-verificador / mogautomation-arch (status publisher)",
+      "credential_group": "mog-verificador-runner",
+      "url": "conversation://a42d0f2e-3467-4e6d-b193-4820073e18a6",
+      "status": "ACTIVE",
+      "updated_at": "2026-11-07T15:45:45Z"
+    },
+    {
+      "session_id": "5d5fcd8f-df38-4fe2-a9da-799973dba06b",
+      "actor": "anti_worker_0001",
+      "role": "✳️ ANTI_WORKER_0001 · Worker Ejecutor Técnico (mog-containers-m1 · WIP=1)",
+      "platform": "Google Antigravity Ultra",
+      "container": "C:\\ANTIGRAVITY_HUB_C",
+      "github_account": "mogautomation-arch",
+      "credential_group": "mog-automation",
+      "url": "conversation://5d5fcd8f-df38-4fe2-a9da-799973dba06b",
+      "status": "ACTIVE",
+      "updated_at": "2026-11-07T15:45:45Z"
+    },
+    {
+      "session_id": "990c6ee2-130c-4570-93b6-e1193e2093f6",
+      "actor": "anti_worker_suite_0002",
+      "role": "✳️ ANTI_WORKER_SUITE_0002 · Worker Ejecutor Técnico (mog-suite & mog-federation · WIP=1)",
+      "platform": "Google Antigravity Ultra",
+      "container": "C:\\ANTIGRAVITY_HUB_C",
+      "github_account": "mogautomation-arch",
+      "credential_group": "mog-automation",
+      "url": "conversation://990c6ee2-130c-4570-93b6-e1193e2093f6",
+      "status": "ACTIVE",
+      "updated_at": "2026-11-07T15:45:45Z"
+    },
+    {
+      "session_id": "93e54e57-4cb5-4774-8a51-ea7a143864ac",
+      "actor": "anti_worker_universe_0003",
+      "role": "✳️ ANTI_WORKER_UNIVERSE_0003 · Worker Ejecutor Técnico (mog-universe · WIP=1)",
+      "platform": "Google Antigravity Ultra",
+      "container": "C:\\ANTIGRAVITY_HUB_C",
+      "github_account": "mogautomation-arch",
+      "credential_group": "mog-automation",
+      "url": "conversation://93e54e57-4cb5-4774-8a51-ea7a143864ac",
+      "status": "ACTIVE",
+      "updated_at": "2026-11-07T15:45:45Z"
+    }
+  ],
+  "total_registered_sessions_in_loopback_bus": 34,
+  "dirty_prs_organization_wide": 0,
+  "dirty_local_worktrees": 0
+}
