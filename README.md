@@ -14,8 +14,8 @@
 ## 2. Repositorios Gobernados Aterrizados (`9/9`)
 | Repositorio | Ruta Local Gobernada (`ECOLOGICS02` / `M1`) | Función en el Stack |
 |---|---|---|
-| `mog-corporation/mog-universe` | `C:\mog-universe` y `C:\ProgramData\MoG\Automation\git\mog-universe` | Fuente canónica de reglas, `CODIGO_CANON`, 83 skills MoG y 10 perfiles |
-| `mog-corporation/mog-suite` | `C:\mog-suite` y `C:\ProgramData\MoG\Automation\git\mog-suite` | Frente de 11 APPS y 5 Sedes de Superadmin |
+| `mog-corporation/mog-universe` | `C:\mog-universe` y `C:\ProgramData\MoG\Automation\git\mog-universe` | Fuente canónica de reglas, `CODIGO_CANON` (`689` entradas medidas), padrón `97/97` actores con motor y `7` paquetes MoG |
+| `mog-corporation/mog-suite` | `C:\mog-suite` y `C:\ProgramData\MoG\Automation\git\mog-suite` | Frente de 13 APPS y 5 Sedes de Superadmin sincronizadas |
 | `mog-corporation/mog-containers-m1` | `C:\mog-containers-m1` y `C:\ProgramData\MoG\Automation\git\mog-containers-m1` | Contenedores aislados de agentes M1 (`WIP=1`, cero secretos) |
 | `mog-corporation/mog-federation` | `C:\ProgramData\MoG\Automation\git\mog-federation` | Capa federativa por empresa, departamento y cargo |
 | `mog-corporation/mog-control-plane` | `C:\ProgramData\MoG\Automation\git\mog-control-plane` | Servicio Cloud Run `mog-control-plane` |
