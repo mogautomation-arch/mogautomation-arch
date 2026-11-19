@@ -14,7 +14,7 @@
 ## 2. Repositorios Gobernados Aterrizados (`9/9`)
 | Repositorio | Ruta Local Gobernada (`ECOLOGICS02` / `M1`) | Función en el Stack |
 |---|---|---|
-| `mog-corporation/mog-universe` | `C:\mog-universe` y `C:\ProgramData\MoG\Automation\git\mog-universe` | Fuente canónica de reglas, `CODIGO_CANON` (`660+` entradas), padrón `88/88` motores y `7` paquetes MoG |
+| `mog-corporation/mog-universe` | `C:\mog-universe` y `C:\ProgramData\MoG\Automation\git\mog-universe` | Fuente canónica de reglas, `CODIGO_CANON` (`689` entradas medidas), padrón `97/97` actores con motor y `7` paquetes MoG |
 | `mog-corporation/mog-suite` | `C:\mog-suite` y `C:\ProgramData\MoG\Automation\git\mog-suite` | Frente de 13 APPS y 5 Sedes de Superadmin sincronizadas |
 | `mog-corporation/mog-containers-m1` | `C:\mog-containers-m1` y `C:\ProgramData\MoG\Automation\git\mog-containers-m1` | Contenedores aislados de agentes M1 (`WIP=1`, cero secretos) |
 | `mog-corporation/mog-federation` | `C:\ProgramData\MoG\Automation\git\mog-federation` | Capa federativa por empresa, departamento y cargo |
