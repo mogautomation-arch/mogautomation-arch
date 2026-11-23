@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/mogautomation-arch">
-    <img src="https://raw.githubusercontent.com/mog-corporation/.github/main/assets/brand/avatar-mogautomation-arch-512-r1.png" width="136" alt="🔸 MoG AUTOMATION · Ingeniería y MESA" />
+    <img src="./assets/avatar-mogautomation-arch-512-r1.png" width="136" alt="🔸 MoG AUTOMATION · Ingeniería y MESA" />
   </a>
 </p>
 
@@ -39,6 +39,6 @@
 
 ---
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mog-corporation/.github/main/assets/brand/mog-corporation-emblem-256-r1.png" width="72" alt="MoG CORPORATION Emblem R1" /><br/>
+  <img src="./assets/mog-corporation-emblem-256-r1.png" width="72" alt="MoG CORPORATION Emblem R1" /><br/>
   <sub><strong>🔸 MoGbot Antigravity · Ejecutor de front y preview IA · MoG CORPORATION</strong></sub>
 </p>
